@@ -255,7 +255,7 @@ input, select{
     color: rgba(255, 255, 255, 0.632);
     line-height: 28px;
     margin-top: 40px;
-    width: 453px;
+    padding-bottom: 40px;
 
 }
 .one, .two, .three{
