@@ -70,9 +70,9 @@ tl.from(".your-destination .row-3 .country-card",{
 })
 tl.from(".choose .Chose-container",{
     y:-240,
-    duration:0.7,
+    duration:1,
     opacity:0,
-    stagger:0.7,
+    stagger:0.8,
     scrollTrigger: {
         trigger:".choose .Chose-container",
         scroller: "body",
@@ -84,9 +84,9 @@ tl.from(".choose .Chose-container",{
 })
 tl.from(".choose .cards",{
     y:-240,
-    duration:0.9,
+    duration:1,
     opacity:0,
-    stagger:0.7,
+    stagger:1,
     scrollTrigger: {
         trigger:".choose .cards",
         scroller: "body",
