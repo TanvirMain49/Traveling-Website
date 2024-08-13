@@ -81,7 +81,6 @@ tl.from(".your-destination .row-2 .country-card img",{
         scroller: "body",
         start:"top 30%",
         end:"top 17%",
-        // markers:true,
         scrub:2
 
     }
@@ -96,7 +95,6 @@ tl.from(".your-destination .row-2 .country-card p",{
         scroller: "body",
         start:"top 30%",
         end:"top 25%",
-        markers:true,
         scrub:2
 
     }
@@ -112,8 +110,7 @@ tl.from(".your-destination .row-3 .country-card img",{
         scroller: "body",
         start:"top 20%",
         end:"top 60%",
-        // markers:true,
-        scrub:2
+        scrub:2,
 
     }
 })
@@ -125,7 +122,6 @@ tl.from(".your-destination .row-3 .country-card p",{
         scroller: "body",
         start:"top 47%",
         end:"top 60%",
-        // markers:true,
         scrub:2
 
     }
@@ -140,7 +136,8 @@ tl.from(".choose .Chose-container",{
         trigger:".choose .Chose-container",
         scroller: "body",
         start:"top 20%",
-        end:"top 20%",
+        end:"top 26%",
+        markers:true,
         scrub:2
 
     }
@@ -233,3 +230,34 @@ tl.from(".deals .deals-img .deals-card-three",{
 
     }
 })
+
+tl.from(".newsletter .from",{
+    x:-1200,
+    duration:1,
+    opacity:0,
+    stagger:0.7,
+    scrollTrigger: {
+        trigger:".newsletter .from",
+        scroller: "body",
+        start:"top 40%",
+        end:"top 20%",
+        markers:true,
+        scrub:2
+
+    }
+})
+tl.from(".newsletter .newsletter-img",{
+    x:1200,
+    duration:1,
+    opacity:0,
+    stagger:0.7,
+    scrollTrigger: {
+        trigger:".newsletter .newsletter-img",
+        scroller: "body",
+        start:"top 40%",
+        end:"top 20%",
+        scrub:2
+
+    }
+})
+
