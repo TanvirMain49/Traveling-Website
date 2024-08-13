@@ -137,7 +137,6 @@ tl.from(".choose .Chose-container",{
         scroller: "body",
         start:"top 20%",
         end:"top 26%",
-        markers:true,
         scrub:2
 
     }
@@ -241,7 +240,6 @@ tl.from(".newsletter .from",{
         scroller: "body",
         start:"top 40%",
         end:"top 20%",
-        markers:true,
         scrub:2
 
     }
